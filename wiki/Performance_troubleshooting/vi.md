@@ -9,6 +9,13 @@ osu! luôn cố gắng chạy với thiết lập mặc định và sẽ cảnh 
 
 Không may là với phạm vi các phần cứng được sử dụng để chơi osu! là quá lớn, sẽ rất khó để đảm bảo hiệu năng tối ưu cho mọi người chơi. Trang này ngoài việc giúp bạn tự phát hiện vấn đề hiệu năng mình gặp phải, mà còn cung cấp một vài thuật ngữ bạn có thể học (và có thể thực hiện kiểm tra) để giúp chúng tôi giúp được bạn khi bạn cần hỗ trợ.
 
+## Những thứ cần kiểm tra
+
+- Bạn có đang dùng skin hay không? Nếu có, hãy thử chuyển về skin mặc định của game xem có cải thiện được tình hình không. Cấu trúc của một số skin có thể gây nên vấn đề hiệu suất ở một số hệ thống hoặc tất cả các hệ thống.
+- Cài đặt giới hạn khung hình của bạn có phải là `Unlimited (Không giới hạn)` không? Hãy thử chuyển về `Optimal (Tối ưu)` xem nó có giúp được không. Xem [đoạn liên quan tới cài đặt này](#unlimited) để tìm hiểu thêm tại sao lựa chọn `Unlimited` thông thường không phải là lựa chọn tốt nhất.
+- Bạn có đang chạy osu! dưới dạng cửa sổ không? Hãy đổi sang toàn màn hình
+- Bạn đã cập nhật các trình điều khiển (đặc biệt là cho GPU) cho máy tính của bạn chưa? Nếu chưa, hãy cập nhật nó lên. Và nếu bạn đã cập nhật rồi thì hãy thử chuyển về bản cũ hơn.
+
 ## Các kiểu "lag"
 
 Rất khó để hỗ trợ bạn khi mọi vấn đề bạn gặp được gộp chung vào một từ "lag", nên hãy bắt đầu bằng việc định nghĩa một vài thuật ngữ cho từng trường hợp cụ thể.
@@ -18,7 +25,7 @@ Rất khó để hỗ trợ bạn khi mọi vấn đề bạn gặp được g�
 Nhạc của beatmap thi thoảng bị tua ngược, hoặc cảm thấy giật. Về cơ bản thì khi game lag, bạn có thể cảm nhận thấy nó qua âm thanh nghe được. Trước khi tiến hành chẩn đoán hoặc báo cáo, bạn hãy thử:
 
 - Kiểm tra xem liệu hiện tượng tương tự có xảy ra với các thiết bị âm thanh khác (loa, tai nghe, ...). Nếu bạn dùng tai nghe có chân cắm USB, bạn hãy thử kết nối qua analog output của PC.
-- Thử xem việc bật "Audio compatibility mode" trong Cài đặt có giúp ích gì không.
+- Thử xem việc bật "Audio compatibility mode (Chế độ tương hợp âm thanh)" trong Cài đặt có giúp ích gì không.
 
 ### Bị đứng hình
 
